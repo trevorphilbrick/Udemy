@@ -1,0 +1,177 @@
+/* --british-racing-green: #034732ff;
+--sea-green: #008148ff;
+--acid-green: #c6c013ff;
+--tangerine: #ef8a17ff;
+--red: #ef2917ff; */
+body{
+   margin: 0;
+   background-color:#008148ff ;
+}
+.header{
+   background-image: url(images/tacorepublicweb-2.jpg);
+   background-size: cover;
+   background-position:75% 40%;
+   background-origin: border-box;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+}
+.headerHr{
+   background-image: url(images/f47a0015-cd51-48d8-9880-ac563e838814_200x200.png);
+   background-size: cover;
+   background-repeat: repeat;
+
+}
+h3, p, li, a{
+   font-family: 'Texturina', serif;
+   color: #ef8a17ff;
+}
+h3{
+   font-size: 2rem;
+
+}
+
+.headerText{
+   text-align: center;
+   color:#c6c013ff ;
+   
+
+}
+nav{
+   margin: 1rem 10%;
+   width: 90%;
+   height: 7rem;
+   max-width: 1080px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* background-color: #034732ff; */
+}
+.navButton{
+   padding: 6rem 4rem;
+   border-radius: 10px;
+   text-decoration: none;
+   /* color: white; */
+   font-size: large;
+   /* box-shadow: 1px 5px 5px 0px black; */
+   background-image: url(images/depositphotos_182446140-stock-photo-tortilla-chip-on-white-background-removebg-preview.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   color: #034732ff;
+   font-size: larger;
+   font-weight: large;
+   text-align: center;
+}
+.navButton:hover{
+   /* transform: translateY(-5px); */
+   transition: 0.4s;
+
+}
+main{
+   background-color: #034732ff;
+   margin: 0 10%;
+}
+.homeSection{
+   margin:0 7%;
+}
+.homeSection1{
+   margin: ;
+   width: 100%;
+   display: flex;
+}
+.homeSection h3{
+   text-align: center;
+}
+.homeParagraph{
+   width: 70%;
+   margin-right: 20%;
+   
+}
+.homeParagraph p{
+   text-align: center;
+}
+.homeSection img{
+ object-fit: contain;
+width: 30%;
+height: ;
+}
+.events{
+   width: 80%;
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+}
+.eventsParagraph{
+align-self: flex-start;
+}
+.eventsList{
+   align-self: flex-end;
+}
+.wobble-hor-top:HOVER {
+	-webkit-animation: wobble-hor-top 0.8s both;
+	        animation: wobble-hor-top 0.8s both;
+}
+
+@-webkit-keyframes wobble-hor-top {
+   0%,
+   100% {
+     -webkit-transform: translateX(0%);
+             transform: translateX(0%);
+     -webkit-transform-origin: 50% 50%;
+             transform-origin: 50% 50%;
+   }
+   15% {
+     -webkit-transform: translateX(-30px) rotate(6deg);
+             transform: translateX(-30px) rotate(6deg);
+   }
+   30% {
+     -webkit-transform: translateX(15px) rotate(-6deg);
+             transform: translateX(15px) rotate(-6deg);
+   }
+   45% {
+     -webkit-transform: translateX(-15px) rotate(3.6deg);
+             transform: translateX(-15px) rotate(3.6deg);
+   }
+   60% {
+     -webkit-transform: translateX(9px) rotate(-2.4deg);
+             transform: translateX(9px) rotate(-2.4deg);
+   }
+   75% {
+     -webkit-transform: translateX(-6px) rotate(1.2deg);
+             transform: translateX(-6px) rotate(1.2deg);
+   }
+ }
+ @keyframes wobble-hor-top {
+   0%,
+   100% {
+     -webkit-transform: translateX(0%);
+             transform: translateX(0%);
+     -webkit-transform-origin: 50% 50%;
+             transform-origin: 50% 50%;
+   }
+   15% {
+     -webkit-transform: translateX(-30px) rotate(6deg);
+             transform: translateX(-30px) rotate(6deg);
+   }
+   30% {
+     -webkit-transform: translateX(15px) rotate(-6deg);
+             transform: translateX(15px) rotate(-6deg);
+   }
+   45% {
+     -webkit-transform: translateX(-15px) rotate(3.6deg);
+             transform: translateX(-15px) rotate(3.6deg);
+   }
+   60% {
+     -webkit-transform: translateX(9px) rotate(-2.4deg);
+             transform: translateX(9px) rotate(-2.4deg);
+   }
+   75% {
+     -webkit-transform: translateX(-6px) rotate(1.2deg);
+             transform: translateX(-6px) rotate(1.2deg);
+   }
+ }
+ 
