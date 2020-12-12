@@ -1,193 +1,185 @@
-body{
-   font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
-h1{
-   text-align: center;
+h1 {
+  text-align: center;
 }
-#container1,{
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: row;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: flex-start;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
+#container1 {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: row;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: wrap;
+  /* sets space between items on cross axis */
+  align-items: flex-start;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 #container2 {
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: row;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: flex-end;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: row;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: nowrap;
+  /* sets space between items on cross axis */
+  align-items: flex-end;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 #container3 {
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: row;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: center;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: row;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: nowrap;
+  /* sets space between items on cross axis */
+  align-items: center;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 #container4 {
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: column;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: flex-start;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: column;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: nowrap;
+  /* sets space between items on cross axis */
+  align-items: flex-start;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 #container5 {
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: column;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: flex-end;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: column;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: nowrap;
+  /* sets space between items on cross axis */
+  align-items: flex-end;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 #container6 {
-   background-color: #003049;
-   width: 90%;
-   height: 500px;
-   margin: 0 auto;
-   border: 5px solid #003049;
-   display: flex;
-   /* sets alignments across main axis */
-   flex-direction: row;
-   /* sets spacing between items on main axis */
-   justify-content: space-around;
-   /*pushes items to new lines along cross axis  */
-   flex-wrap: nowrap;
-   /* sets space between items on cross axis */
-   align-items: center;
-   /* sets space between rows/colums */
-   /* align-content: flex-start; */
-   
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* sets alignments across main axis */
+  flex-direction: row;
+  /* sets spacing between items on main axis */
+  justify-content: space-around;
+  /*pushes items to new lines along cross axis  */
+  flex-wrap: nowrap;
+  /* sets space between items on cross axis */
+  align-items: center;
+  /* sets space between rows/colums */
+  /* align-content: flex-start; */
 }
 
-   
-#container1 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+#container1 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container2 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+#container2 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container3 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+#container3 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container4 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+#container4 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container5 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+#container5 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container6 div{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+#container6 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container6 div:hover{
-   width: 200px;
-   height: 200px;
-   font-size: 4em;
-   /* text-align: center; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transform: translateY(-0.5em);
-   box-shadow: 0 20px 10px 7px #001D2C;
-   /* border-right:black inset 6px;
+#container6 div:hover {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-0.5em);
+  box-shadow: 0 20px 10px 7px #001d2c;
+  /* border-right:black inset 6px;
    border-bottom:black inset 9px; */
-   transition: 0.5s;
+  transition: 0.5s;
 }
 /* div:nth-of-type(3){
    align-self: flex-end;
