@@ -217,10 +217,12 @@ main {
 }
 @media (min-width: 640px) {
   body {
-    background-image: url(images/cesira-alvarado-Y6BflgQ1Y58-unsplash.jpg);
+    background-image: url(images/cesira-alvarado-Y6BflgQ1Y58-unsplash.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background:url(images/cesira-alvarado-Y6BflgQ1Y58-unsplash.jpg)no-repeat center center fixed; 
+  }
+
   }
   nav {
     flex-direction: row;
@@ -252,9 +254,16 @@ main {
   main {
     flex-direction: row;
     background-color: white;
-    margin: 0 10%;
+    margin: auto auto;
     margin-top: 2rem;
     border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 10px 7px 8px black;
+    transform: scale(0.9);
+    transition: ease-in 0.25s;
+  }
+  main:hover{
+    transform:scale(1.0) ;
   }
   .signup-text {
     width: 50%;
@@ -267,4 +276,5 @@ main {
   .signup {
     padding: 2rem;
   }
+
 }
