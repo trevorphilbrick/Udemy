@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.backgroundDay{
+width: 100%;
+height: 100vh;
+background-color: white;
+position: absolute;
+z-index: -1;
+}
+.sliderbg{
+   background-color: #5995B7;
+   position: relative;
+   transition: ease-in-out 1.5s;
+   z-index: -1;
+}
+.center{
+   width: 10rem;
+   height: 5rem;
+   
+}
+.edge1{
+   width: 5rem;
+   height: 5rem;
+   /* background-color: #5995B7; */
+   border-radius: 100%;
+   transform: translatex(-50%);
+}
+.edge2{
+   width: 5rem;
+   height: 5rem;
+   /* background-color: #5995B7; */
+   border-radius: 100%;
+   transform: translatex(50%);
+}
+.objects{
+   width: 20rem;
+   height: 5rem;
+   /* background-color: #5995B7; */
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   /* background-color: black; */
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   
+}
+.sun{
+   width: 4rem;
+   height: 4rem;
+   background-color: #FDE050;
+   border-radius: 100%;
+   transition: ease-in-out 1.5s;
+   position: absolute;
+
+   margin-top: 0.5rem;
+   margin-right: 9.5rem;
+}
+.objects:active .sun{
+   transform: translate(9.5rem);
+   background-color: #e2e9ff;
+}
+.objects:active .sliderbg{
+   background-color: #402158;
+}
+
+.star{
+   width: 1rem;
+   height: 1rem;
+   position: absolute;
+   background-color: white;
+   z-index: 1;
+   opacity: 0;
+   transform: translatey(10px);
+}
+.star1{
+left: 7.5rem;
+   top: 3rem;
+}
+.star2{
+   left: 11rem;
+   top: 1rem;
+}
+.star3{
+   left: 4rem;
+   top: 1rem;
+}
+.objects:active .star{
+   opacity: 1;
+   transform: translatey(0);
+   transition: 1s ease-in-out 1s;
+}
+.cloud{
+   position: absolute;
+   color: white;
+}
+
