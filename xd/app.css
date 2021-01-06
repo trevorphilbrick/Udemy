@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #707070;
+    scrollbar-gutter: always;
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-rows:0.4fr 2fr 1.3fr ;
+    grid-template-columns:1fr 1fr 1fr ;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+
+grid-area: 1/1/3/3;
+background-color: #FFE5B9;
+}
+.iconImage{
+    height: 22px;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.main h1{
+    position: relative;
+    margin-left: 35px;
+    margin-top: 60px;
+    font-size: 105px;
+    font-family: 'Alegreya Sans', sans-serif;
+    animation: fadeIn 0.7s ease-in 0s 1 normal forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.navigation{
+    
+    grid-area: 3/1 4/2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.animatedBounce{
+    opacity: 0;
+    animation: bounceInTop 1.1s linear 0s 1 normal forwards;
+}
+.animatedBounce:nth-of-type(2){
+    animation: bounceInTop 1.1s linear 0.3s 1 normal forwards;
+}
+.animatedBounce:nth-of-type(3){
+    animation: bounceInTop 1.1s linear 0.6s 1 normal forwards;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color:#707070 ;
+    font-family: 'Rubik', sans-serif;
+  
+}
+.navItem:hover{
+    animation: hoverEffect 0.2s ease-in-out 0s 1 normal forwards;
+    
+}
+.signup{
+    border: 2px solid #707070;
+    border-radius: 5%;
+    padding: 0.4rem;
+}
+.cardOne{
+    transition: 0.3s ease-in; 
+    grid-area: 3/1/4/2;
+    background-color: #C9CBFF;
+}
+.cardTwo{
+   transition: 0.3s ease-in; 
+    grid-area: 3/2/4/3;
+    background-color: #A6A9B6;
+    color: whitesmoke;
+}
+/* .cardTwo:hover, .cardOne:hover{
+    transform: translateY(-20px);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.86); 
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.86);
+} */
+.cardTwo:hover .subscribeBox{
+    transform: scale(1.3);
+}
+.cardTwo:hover .subscribeButton{
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.86);
+}
+
+h3{
+    opacity: 0;
+    margin-left: 35px; 
+    margin-top: 35px;
+    font-size: 35px;
+font-family: 'Fira Sans', sans-serif;
+animation: fadeIn 0.7s ease-in 0.5s 1 normal forwards;
+}
+h3:last-of-type{
+    animation: fadeIn 0.7s ease-in 0.8s 1 normal forwards;  
+}
+.image{
+    
+    grid-area: 2/3/4/4;
+    background-image: url(/xd/erik-mclean-rIhCchNyves-unsplash.jpg);
+background-position: 80% ;
+background-size: cover;
+background-repeat: no-repeat;
+}
+p{
+    opacity: 0;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    animation: fadeIn 0.7s ease-in 0.9s 1 normal forwards;
+}
+.cardOne p{
+    margin: 35px 35px;
+    
+}
+.subscribeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    transition: 0.3s ease-in; 
+}
+.subscribeButton{
+    opacity: 0;
+    border: 2px solid white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    animation: fadeIn 0.7s ease-in 1.0s 1 normal forwards;
+    color: white;
+    transition: 0.3s ease-in; 
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);   
+    }
+}
+
+@keyframes bounceInTop {
+    0% {
+        opacity: 0;
+      transform: translateY(-500px);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      transform: translateY(-65px);
+      animation-timing-function: ease-in;
+    }
+    72% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    81% {
+      transform: translateY(-28px);
+      animation-timing-function: ease-in;
+    }
+    90% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    95% {
+      transform: translateY(-8px);
+      animation-timing-function: ease-in;
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes hoverEffect{
+      from{
+          transform: translateY(0px);
+          opacity: 1;
+      }
+      to{
+          transform: translateY(-5px);
+          opacity: 1;
+      }
+  }
